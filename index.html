@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f4f2eb">
+<title>Mining Dashboard — Complete Build Prompt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f4f2eb;--ink:#182a25;--muted:#56675f;--line:#d5dcd2;--green:#245e47;--lime:#d6ee85;--white:#fffef9}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}button,textarea{font:inherit}button{cursor:pointer}a{color:inherit}.wrap{max-width:1160px;margin:auto;padding:0 24px}header{border-bottom:1px solid var(--line)}.header-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:86px}.brand{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.7px;font-size:22px}.brand span{color:var(--green)}.edition{color:var(--muted);font-size:12px;letter-spacing:1.5px;text-transform:uppercase}main{padding:70px 0 50px}.intro{display:grid;grid-template-columns:1.6fr 1fr;gap:64px;align-items:end}.eyebrow{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--green)}h1,h2{font-family:"Space Grotesk",sans-serif}h1{font-size:clamp(40px,6vw,72px);font-weight:500;line-height:1.04;letter-spacing:-3px;margin:20px 0 24px}.intro p{color:var(--muted);line-height:1.75;max-width:580px}.diagram{min-height:245px;background:var(--green);border-radius:3px;position:relative;overflow:hidden;padding:26px;color:var(--white)}.diagram::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff0c 1px,transparent 1px),linear-gradient(90deg,#ffffff0c 1px,transparent 1px);background-size:28px 28px}.diagram-label{position:relative;font-size:11px;letter-spacing:2px}.bars{position:absolute;inset:70px 28px 35px;display:flex;align-items:end;gap:14px}.bars i{flex:1;background:var(--lime);border-radius:3px 3px 0 0;height:var(--height);opacity:var(--opacity)}.diagram-footer{position:absolute;bottom:14px;left:28px;font-size:10px;letter-spacing:1.5px}.spec{margin-top:42px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr)}.spec div{padding:22px 0}.spec small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:7px}.spec strong{font-weight:500}.editor{margin-top:42px;background:var(--white);border:1px solid var(--line)}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:23px 26px;border-bottom:1px solid var(--line)}h2{font-size:20px;margin:0 0 5px;letter-spacing:-.5px}.toolbar p{margin:0;color:var(--muted);font-size:13px}button{border:0;padding:13px 20px;border-radius:3px;background:var(--green);color:white;font-weight:600;white-space:nowrap;transition:background .2s,transform .2s}button:hover{background:#173f30;transform:translateY(-2px)}button:active{transform:translateY(0)}button:focus-visible,textarea:focus-visible{outline:3px solid #8cae43;outline-offset:4px}textarea{display:block;width:100%;height:660px;resize:vertical;border:0;padding:28px;color:var(--ink);background:transparent;line-height:1.8;font-size:14px}.note{display:flex;gap:20px;margin-top:22px;color:var(--muted);font-size:13px;line-height:1.7}.note strong{color:var(--ink);white-space:nowrap}footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:12px}#status{min-height:20px;color:var(--green);font-size:13px;margin-top:14px}.reveal{animation:appear .65s both}.intro{animation-delay:.08s}.spec{animation-delay:.18s}.editor{animation-delay:.28s}@keyframes appear{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@media(max-width:740px){main{padding-top:40px}.intro{grid-template-columns:1fr;gap:24px}.diagram{min-height:190px}h1{letter-spacing:-2px}.spec{gap:12px}.spec strong{font-size:13px}.toolbar{align-items:start;padding:20px;flex-direction:column}textarea{padding:20px;height:620px}.note{flex-direction:column;gap:4px}.edition{max-width:110px;text-align:right;line-height:1.5}}@media(prefers-reduced-motion:reduce){.reveal{animation:none}button{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap header-inner"><div class="brand">Build<span>brief.</span></div><div class="edition">Interface practice / 001</div></div></header>
+<main class="wrap">
+<section class="intro reveal" aria-labelledby="title"><div><div class="eyebrow">Reference → original interface</div><h1 id="title">A better brief.<br>A complete build.</h1><p>A reusable prompt for a polished mining-plan dashboard, inspired by the reference’s structure—not its financial claims. Copy it into your coding assistant to build a complete, interactive practice project.</p></div><div class="diagram" role="img" aria-label="Five ascending bars representing five subscription tiers"><div class="diagram-label">FIVE TIERS / ONE DESIGN SYSTEM</div><div class="bars"><i style="--height:25%;--opacity:.45"></i><i style="--height:43%;--opacity:.6"></i><i style="--height:62%;--opacity:.75"></i><i style="--height:81%;--opacity:.9"></i><i style="--height:100%;--opacity:1"></i></div><div class="diagram-footer">SIMULATED COMPUTE · NO REAL FUNDS</div></div></section>
+<section class="spec reveal" aria-label="Prompt specifications"><div><small>Deliverable</small><strong>Complete single-file app</strong></div><div><small>Experience</small><strong>Responsive + interactive</strong></div><div><small>Scope</small><strong>Clearly labeled simulation</strong></div></section>
+<section class="editor reveal" aria-labelledby="prompt-title"><div class="toolbar"><div><h2 id="prompt-title">Your complete build prompt</h2><p>Edit the brief below, or copy it as-is.</p></div><button id="copy" type="button">Copy full prompt ↗</button></div><textarea id="prompt" aria-label="Editable complete website generation prompt" spellcheck="false">
+
+Act as a senior frontend engineer, product designer, and accessibility specialist. Build a complete, polished, responsive mining-themed subscription dashboard as a portfolio practice project.
+
+DELIVERABLE
+
+Return one complete HTML5 file with all CSS in a head style element and all JavaScript immediately before the closing body tag. Do not return pseudocode, incomplete components, TODOs, or features that silently do nothing. The file must work when opened locally without a build step. Use Google Fonts for typography; otherwise use no external dependencies, external image URLs, or icon libraries. Draw visuals with inline SVG and CSS.
+
+REFERENCE AND LIMITATIONS
+
+Use the following reference structure, not an exact visual clone:
+
+- A page titled “Upgrade Plans” with a short subtitle.
+- Help and notification controls in the header.
+- A current-plan summary.
+- Five progressively stronger subscription plans.
+- A highlighted recommended plan.
+- Plan metrics, descriptions, and upgrade buttons.
+- Navigation for Home, Mine, Plans, Withdraw, and Profile.
+
+Only text content from the reference is available. Do not pretend you have seen its actual colors, spacing, screenshots, or animation. Create an original, coherent design. Use the fictional brand “Hashworks”; do not copy TruemineX branding.
+
+This is a clearly labeled simulation, not an investment service. Persistently display “Demo environment — no real mining or money.” Do not advertise guaranteed income, fabricate trust badges or testimonials, claim verified security, or reproduce the reference’s unrealistic dollar earnings. Do not collect payment details, wallet seed phrases, identity documents, or real cryptocurrency addresses. No real deposits, withdrawal processing, wallet connections, payment gateways, or backend security claims.
+
+VISUAL DIRECTION
+
+Create an industrial, precision-engineered dashboard:
+
+- Deep forest background (#10251f), warm ivory text (#f4f1e8), muted sage secondary text, lime accents (#d6ee85), and restrained warm amber notices.
+- Use Space Grotesk for headings and DM Sans for body text, loaded through Google Fonts.
+- Strong typographic hierarchy, generous gutters, fine borders, subtle technical grid textures, and excellent alignment.
+- Avoid generic purple/blue gradients, excessive glow, repeated glass panels, and cartoon cryptocurrency illustrations.
+- Use cards only for the actual plan gallery. Use open layouts, dividers, and typography for other sections.
+- Build a CSS/inline-SVG compute illustration or activity visualization rather than downloading imagery.
+- Create consistent tokens for colors, type sizes, spacing, radii, focus rings, shadows, and motion.
+- Add subtle staggered entrance animation and button feedback. Respect prefers-reduced-motion.
+
+PAGE STRUCTURE
+
+1. Desktop shell:
+   - A restrained sidebar containing brand, primary navigation, and demo status.
+   - Main content with a header showing page title, subtitle, Help, and Notifications.
+   - Clear current-page navigation styling.
+2. Mobile shell:
+   - Compact brand/header and a bottom navigation bar.
+   - Include safe-area inset spacing so navigation never overlaps content.
+3. Plans view:
+   - Current-plan summary showing plan name, status, and daily demo-credit allowance.
+   - Short explanation that credits are simulated, have no monetary value, and cannot be redeemed.
+   - Five plan cards arranged in a balanced responsive grid.
+   - A compact feature comparison table below, scrollable within its own region on small screens.
+   - FAQ disclosure controls and a short demo disclaimer.
+
+PLAN DATA
+
+All paid prices are illustrative subscription prices, not functioning purchase offers. Label them “Illustrative price / month.” Credits have no dollar equivalent.
+
+Free:
+- Price: $0
+- Credits per run: 1
+- Runs per day: 1
+- Cooldown: 10 seconds
+- Daily credits: 1
+- 30-day maximum: 30
+- Description: Explore the simulated compute workflow.
+- Initially active.
+
+Plus:
+- Illustrative price: $20/month
+- Credits per run: 20
+- Runs per day: 3
+- Cooldown: 10 seconds
+- Daily credits: 60
+- 30-day maximum: 1,800
+- Description: More room for regular experiments.
+
+Pro:
+- Illustrative price: $50/month
+- Credits per run: 40
+- Runs per day: 6
+- Cooldown: 10 seconds
+- Daily credits: 240
+- 30-day maximum: 7,200
+- Description: A balanced tier for intensive simulations.
+- Highlight as “Recommended,” not “Most popular,” unless actual usage data exists.
+
+Elite:
+- Illustrative price: $150/month
+- Credits per run: 60
+- Runs per day: 9
+- Cooldown: 10 seconds
+- Daily credits: 540
+- 30-day maximum: 16,200
+- Description: Higher capacity for larger experiments.
+
+Infinity:
+- Illustrative price: $300/month
+- Credits per run: 80
+- Runs per day: 12
+- Cooldown: 10 seconds
+- Daily credits: 960
+- 30-day maximum: 28,800
+- Description: The highest-capacity demo tier.
+- Do not label this unlimited: it has an explicit daily limit.
+
+Compute daily and 30-day values from the base data, not separately duplicated constants. Explain that the 30-day maximum assumes all available runs are completed each day.
+
+FUNCTIONALITY
+
+All navigation controls must open functioning views within the same file:
+
+- Home: show current tier, demo-credit balance, runs remaining, and recent local activity. Give new users an intentional empty state.
+- Mine: start a simulated 10-second compute run with a progress indicator. Prevent duplicate runs, enforce the selected tier’s daily run limit, and award the correct demo credits exactly once per completed run. Clearly explain that no actual mining occurs.
+- Plans: display the full subscription comparison and allow simulated plan changes.
+- Withdraw: show an informative non-transactional state explaining that demo credits cannot be withdrawn or exchanged. Do not include a real wallet or payment form.
+- Profile: allow a local display-name preference and provide a Reset demo action with confirmation. Do not request sensitive personal information.
+
+PLAN SELECTION FLOW
+
+Clicking “Try this plan” opens an accessible confirmation dialog showing:
+- Selected plan and illustrative monthly price.
+- Exact credit/run limits.
+- “This changes your demo plan only. No charge will occur.”
+- Cancel and “Activate demo plan” buttons.
+
+On confirmation, update the active-plan badge, summary, Mine view, and Home view. Show an accessible success message. Current-plan buttons must be disabled and labeled “Current plan.” Allow switching to any tier, including Free. Do not reset the number of runs already used when changing tiers; if a lower tier’s limit has already been reached, disable further runs until the next local calendar day. Disable plan changes while a run is active.
+
+STATE
+
+Use a versioned localStorage key to persist the selected plan, display name, simulated credit balance, daily run usage, notifications, and a capped recent-activity list.
+- Handle missing, corrupt, or unavailable localStorage gracefully using an in-memory fallback.
+- Validate stored values against known plan IDs and sensible numeric ranges.
+- Refresh daily run usage at a local calendar-day boundary without resetting the cumulative balance.
+- An interrupted run must not award credits on reload.
+- Keep state updates centralized so every view stays consistent.
+- Reset demo must clear only this app’s storage key and restore initial state.
+
+OTHER INTERACTIONS
+
+- Help opens an accessible modal with a concise explanation, demo limitations, and keyboard instructions.
+- Notifications opens a panel with meaningful local events, an unread count, and a mark-as-read action. Do not invent transaction or security notifications.
+- FAQs use semantic details/summary elements.
+- Use polite live regions for completed runs, plan changes, errors, and copy/status messages; do not announce progress every animation frame.
+- Use hash-based navigation or an equivalent lightweight router so browser Back and Forward work.
+- No dead links, decorative buttons presented as actions, or fake loading states.
+
+ACCESSIBILITY
+
+Use semantic header, nav, main, section, article, and footer elements. Include a skip link and one primary heading per active view. Use actual buttons for actions and links for navigation.
+- Ensure readable contrast, including muted text and disabled controls.
+- All interactive controls must be keyboard accessible and have visible focus.
+- Give icon-only controls accessible names; hide decorative SVGs from assistive technology.
+- Dialogs must trap focus, close on Escape, and restore focus to their trigger.
+- Announce errors and state changes accessibly.
+- Avoid conveying active plans or errors by color alone.
+- Use comfortably sized touch targets, preferably at least 44 by 44 pixels.
+
+RESPONSIVENESS
+
+Design mobile-first. Verify layouts at 360, 390, 768, 1024, and 1440 pixels. Plan cards should transition from one column to a balanced multi-column layout without compressed text. Prevent page-level horizontal scrolling. Long labels and large credit totals must fit. Keep bottom navigation readable at narrow widths.
+
+ENGINEERING QUALITY
+
+Organize JavaScript into clearly named state, rendering, routing, dialog, and simulation functions. Use event listeners rather than inline click attributes. Insert user-provided display names using textContent, never raw HTML. Avoid unnecessary timers and cancel simulation timers appropriately. Use Intl.NumberFormat for readable prices and credit totals. Provide useful error handling rather than swallowing failures silently.
+
+ACCEPTANCE CHECKS
+
+Before returning the file, verify:
+
+1. Every navigation item opens its intended view.
+2. Browser Back and Forward update the active view.
+3. Each plan opens the correct confirmation dialog.
+4. Cancel leaves state unchanged.
+5. Confirm updates all relevant views and persists after reload.
+6. Current-plan styling is unambiguous and accessible.
+7. Completed runs award credits once; repeated clicks cannot duplicate them.
+8. Daily limits survive plan switches and reloads.
+9. Interrupted runs do not award credits.
+10. Reset restores the complete initial demo state.
+11. Help and notification controls work with mouse and keyboard.
+12. Modal focus handling and Escape behavior work.
+13. Layout remains usable on a 360px-wide screen.
+14. Reduced-motion users do not receive entrance or progress animation.
+15. No UI implies real earnings, real payment processing, real withdrawals, or verified business credibility.
+
+OUTPUT
+
+Return only the complete HTML file inside a single html code fence. Make the interface feel professionally designed and genuinely functional within the clearly disclosed demo scope.
+
+      </textarea></section>
+<div id="status" role="status" aria-live="polite"></div><aside class="note"><strong>A practical limitation</strong><span>No prompt guarantees a flawless result. This brief makes the scope and acceptance checks explicit. Because the reference provided is text-only, it guides structure and functionality rather than promising an exact visual recreation.</span></aside>
+</main><footer><div class="wrap">Original interface practice. Transparent design, not manufactured trust.</div></footer>
+<script>
+const copyButton=document.getElementById('copy');const promptField=document.getElementById('prompt');const status=document.getElementById('status');copyButton.addEventListener('click',async()=>{try{if(!navigator.clipboard||!window.isSecureContext)throw new Error('Clipboard unavailable');await navigator.clipboard.writeText(promptField.value.trim());status.textContent='Full prompt copied. Paste it into your coding assistant.';copyButton.textContent='Copied ✓';setTimeout(()=>{copyButton.textContent='Copy full prompt ↗'},2200)}catch{promptField.focus();promptField.select();status.textContent='Automatic copying is unavailable here. The prompt is selected; press Ctrl+C or Command+C to copy.'}});
+</script>
+</body>
+</html>
